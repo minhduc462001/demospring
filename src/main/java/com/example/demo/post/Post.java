@@ -38,6 +38,18 @@ public class Post {
     public Post() {
     }
 
+    @Override
+    public String toString() {
+        return "Post{" +
+                "id=" + id +
+                ", idUser=" + idUser +
+                ", body='" + body + '\'' +
+                ", like='" + like + '\'' +
+                ", comment='" + comment + '\'' +
+                ", time=" + time +
+                '}';
+    }
+
     public int getId() {
         return id;
     }

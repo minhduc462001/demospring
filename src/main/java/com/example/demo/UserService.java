@@ -17,4 +17,8 @@ public class UserService {
     public User getUserByID(){
         return  userRepository.getById(1);
     }
+
+    public void addNewUser(User user) {
+        System.out.println(user);
+    }
 }

@@ -68,6 +68,25 @@ import java.util.Date;
             this.background = background;
         }
 
+        public User(String firstName, String lastName, String password, String email,
+                    String phoneNumber, String address, Date birthday, int sex,
+                    String hometown, String description, String hobby, String avatar,
+                    String background) {
+            this.firstName = firstName;
+            this.lastName = lastName;
+            this.password = password;
+            this.email = email;
+            this.phoneNumber = phoneNumber;
+            this.address = address;
+            this.birthday = birthday;
+            this.sex = sex;
+            this.hometown = hometown;
+            this.description = description;
+            this.hobby = hobby;
+            this.avatar = avatar;
+            this.background = background;
+        }
+
         public User() {
         }
 
